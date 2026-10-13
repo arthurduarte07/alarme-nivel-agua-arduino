@@ -4,7 +4,9 @@
 
 O sistema utiliza um **Arduino Uno**, um **sensor resistivo de detecção de água** e um **buzzer**. Quando a água atinge a região do sensor, instalada próxima ao nível máximo desejado, o Arduino identifica a leitura e aciona um aviso sonoro.
 
-![Protótipo do alarme de nível de água instalado em um galão](media/prototipo-galao.jpeg)
+<p align="center">
+  <img src="media/prototipo-galao.jpeg" alt="Protótipo montado no galão, com sensor de água, Arduino e buzzer" width="540">
+</p>
 
 ## Motivação: de um problema cotidiano a uma solução
 
@@ -26,13 +28,41 @@ Desenvolver e testar um protótipo capaz de:
 
 ## Demonstração do protótipo
 
-![Prévia do ensaio com água (animação sem áudio)](media/previa-ensaio.gif)
+O registro abaixo mostra parte do ensaio de enchimento do galão. A animação é reproduzida diretamente nesta página, sem necessidade de baixar arquivos (GIF sem áudio).
 
-**Registros do desenvolvimento:**
+<p align="center">
+  <img src="media/previa-ensaio.gif" alt="Animação mostrando o ensaio de enchimento do galão" width="540">
+</p>
 
-1. [Teste preliminar do sensor com um copo de água](media/teste-preliminar-copo.mp4)
-2. [Montagem do sistema no galão](media/montagem-prototipo.mp4)
-3. **[Ensaio de enchimento do galão — demonstração principal](media/ensaio-enchimento-galao.mp4)**
+### Etapas do desenvolvimento
+
+#### 1. Teste inicial do sensor
+
+O primeiro teste foi feito com um copo de água para conferir a leitura do sensor e o acionamento do alarme.
+
+<p align="center">
+  <img src="media/teste-inicial-copo.jpeg" alt="Teste do sensor em um copo com água" width="420">
+</p>
+
+#### 2. Montagem no galão
+
+Após o teste inicial, o sistema foi instalado no recipiente. A posição do sensor precisou ser ajustada para evitar contato direto com as gotas do ar-condicionado.
+
+<p align="center">
+  <img src="media/instalacao-galao.jpeg" alt="Montagem do sensor e dos componentes no galão" width="420">
+</p>
+
+#### 3. Ensaio de enchimento
+
+Por fim, o galão foi preenchido para observar o comportamento do alerta na altura definida para o sensor.
+
+<p align="center">
+  <img src="media/ensaio-galao.jpeg" alt="Ensaio de enchimento do galão com o sensor instalado" width="420">
+</p>
+
+**Vídeos originais dos testes:** [teste inicial](media/teste-preliminar-copo.mp4) · [montagem](media/montagem-prototipo.mp4) · [enchimento do galão](media/ensaio-enchimento-galao.mp4).
+
+> As fotografias e a animação são visualizadas diretamente nesta página. Os arquivos MP4 complementares podem exigir download, dependendo do navegador.
 
 ## Componentes utilizados
 
@@ -115,3 +145,4 @@ Os componentes eletrônicos e suas conexões devem permanecer **fora da área de
 ---
 
 **Contexto acadêmico:** projeto prático de aprendizagem desenvolvido durante a graduação em **Engenharia Elétrica na Universidade Federal Fluminense (UFF)**, a partir de uma necessidade real identificada em família.
+
